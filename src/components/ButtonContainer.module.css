@@ -1,0 +1,38 @@
+.buttonContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 10px;
+  background-color: #8ae0de;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  border: 2px solid #000;
+  width: 100%;
+  box-sizing: border-box;
+  justify-items: center;
+  align-items: center;
+  height: auto;
+}
+
+.button {
+  padding: 15px;
+  font-size: 18px;
+  border: 2px solid #040404;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 85px;
+  display: flex;
+  width: 85px;
+  align-items: center;
+  justify-content: center;
+  font-size:30px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #e0e0e0;
+}
